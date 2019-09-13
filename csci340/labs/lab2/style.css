@@ -1,0 +1,73 @@
+
+body{
+  background-color:#7B6F6D
+}
+
+.navbar-brand{
+  font-family: Modak, sans-serif;
+  font-size: 3em;
+}
+
+
+ul li{
+  font-family: 'Lobster', cursive;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.nav-item{
+  font-size: 2em;
+}
+
+.image{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  height: 100%;
+  width: 100%;
+  border: 3px solid grey;
+  margin-left: 10px;
+}
+
+.jumbotron {
+  display: flex;
+ align-items: center;
+ background-image: url('https://snappygoat.com/b/0fd38ec53d2d04f8e54242abb102584257078f62');
+ background-size: cover;
+ color: #ffffff;
+ height: 700px;
+ text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.description{
+  border: 2px solid grey;
+  font-family: 'Lobster', cursive;
+  padding: 20px;
+  font-size: 1.5em;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+footer .col-sm-4{
+  font-size: 1.7em;
+}
+
+.footer_section{
+    background-color: black;
+}
