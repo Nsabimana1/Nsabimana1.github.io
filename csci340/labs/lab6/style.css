@@ -4,6 +4,7 @@
   display: inline-block;
   position: relative;
   width: auto;
+  margin: 2%;
 }
 #setup{
     left: 50%;

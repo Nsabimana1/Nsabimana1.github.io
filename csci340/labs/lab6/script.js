@@ -34,9 +34,10 @@ const getPicture = () =>{
     url: "http://shibe.online/api/shibes?count=1&urls=true&httpsUrls=true",
     success: function(results) {
 
-            $('#size_controller').removeAttr("height");
-            $('#size_controller').removeAttr("width");
+            //$('#size_controller').removeAttr("height");
+            //$('#size_controller').removeAttr("width");
             $('#size_controller').attr("src",results[0]);
+            /*
             let h = $('#size_controller').height();
             console.log('h=',h);
             if (h/500.0 > 1) {
@@ -46,7 +47,7 @@ const getPicture = () =>{
               $('#size_controller').attr("height","500px");
               //let w = $('#size_controller').width();
               //$('#size_controller').attr("width",w/r+"px");
-            }
+            }*/
       $('#picture').css("background-image", "url("+results[0]+")");
 
     },
