@@ -41,7 +41,8 @@ const getPicture = () =>{
   });
 }
   console.log("loaded")
-
+  getJoke();
+  getPicture();
 $('#gen_joke').click(function () {
   console.log("Yessss")
   getJoke();
