@@ -1,4 +1,14 @@
 $(document).ready(function() {
+
+
+const getJoke = (category) =>{
+  var = "https://official-joke-api.appspot.com/random_joke"
+  return
+}
+
+
+
+
   $('.cookie').click(function() {
     $.ajax({
       dataType: "jsonp",
