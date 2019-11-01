@@ -1,5 +1,6 @@
 #picture{
   object-fit: cover;
+  background-size:contain;
   background-repeat: no-repeat;
   display: inline-block;
   position: relative;
