@@ -1,0 +1,25 @@
+#picture{
+  object-fit: cover;
+  display: inline-block;
+  position: relative;
+}
+#punchline{
+    bottom: 50px;
+    position: absolute;
+}
+
+
+#content{
+  text-align: center;
+  }
+
+
+#size_controller{
+  visibility:hidden;
+}
+
+.imgText{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-shadow: black 2px 2px 12px ;
+}
