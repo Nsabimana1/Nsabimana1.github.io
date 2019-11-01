@@ -1,10 +1,19 @@
 #picture{
   object-fit: cover;
+  background-repeat: no-repeat;
   display: inline-block;
   position: relative;
+  width: auto;
 }
+#setup{
+    left: 50%;
+    transform: translate(-50%, 0%);
+    position: absolute;
+}
+
 #punchline{
-    bottom: 50px;
+  left: 50%;
+  transform: translate(-50%, -110%);
     position: absolute;
 }
 
@@ -16,6 +25,8 @@
 
 #size_controller{
   visibility:hidden;
+  max-height: 500px;
+  width: auto;
 }
 
 .imgText{
