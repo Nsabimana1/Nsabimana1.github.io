@@ -53,6 +53,12 @@ $('#gen_image').click(function () {
   getPicture();
 });
 
+$('#generate').click(function (){
+  getJoke();
+  getPicture();
+})
+
+
 
 
   // $('#joke').click(function() {
